@@ -1,4 +1,4 @@
-#include <io> 
+#include <iostream> 
 using namespace std; 
 //function to find the majority element
 void findMajority(int arr[], int size) 
@@ -34,7 +34,7 @@ void findMajority(int arr[], int size)
 // Driver code 
 int main() 
 { 
-    int arr[] = {1,3,4,4,1,4,4}; 
+    int arr[] = {1,3,4,4,1,4,4,5,8,3,7}; 
     int size = sizeof(arr) / sizeof(arr[0]); 
       
     // Calling the function 
