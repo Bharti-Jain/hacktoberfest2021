@@ -1,6 +1,5 @@
 #include <iostream> 
 using namespace std; 
-//function to find the majority element
 void findMajority(int arr[], int size) 
 { 
     int maxCount = 0;  
@@ -25,16 +24,15 @@ void findMajority(int arr[], int size)
     // if the maxCount is greater than size/2, 
     // return the corresponding element.
     if (maxCount > size/2) 
-       cout << "Majority element is " <<arr[index] << endl; 
+       cout << "Majority element are " <<arr[index] << endl; 
       
     else
-        cout << "Majority Element does not exist" << endl; 
+        cout << "Majority Element does not exist in the given elements" << endl; 
 } 
-  
-// Driver code 
+ 
 int main() 
 { 
-    int arr[] = {1,3,4,4,1,4,4,5,8,3,7}; 
+    int arr[] = {1,3,4,4,1,4,4,5,8,3,7,5,2,1,9}; 
     int size = sizeof(arr) / sizeof(arr[0]); 
       
     // Calling the function 
